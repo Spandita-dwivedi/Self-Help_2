@@ -1,0 +1,417 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Alegreya+Sans:wght@300&family=Amatic+SC:wght@700&family=Antic+Didone&family=Bellota+Text&family=Cedarville+Cursive&family=Cinzel&family=League+Script&family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cedarville+Cursive&family=League+Script&family=Patrick+Hand+SC&family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bellota+Text&family=Cedarville+Cursive&family=League+Script&family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Amatic+SC:wght@700&family=Bellota+Text&family=Cedarville+Cursive&family=League+Script&family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Alegreya+Sans:wght@300&family=Amatic+SC:wght@700&family=Antic+Didone&family=Bellota+Text&family=Cedarville+Cursive&family=Cinzel&family=Cormorant:wght@300&family=League+Script&family=Yomogi&display=swap');
+
+
+/* .carousel-inner{
+    box-shadow:0 0 0.5rem 0.25rem #94B49F;
+} */
+
+.navbar-brand{
+    padding-left: 3%;
+    
+    font-family: 'Cinzel', serif;
+    font-size: 2rem !important;
+    
+}
+
+.dropdown-menu > .active > a,.dropdown-menu > .active > a:hover.dropdown-menu > .active > a:focus {color: black !important; background-color: #e7e7e7!important; border-color: gray!important; outline:none!important; cursor: pointer;}
+
+.dropdown-item{
+    outline: none;
+    border-color: gray;
+
+}
+
+.nav-item{
+    font-style: bold;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+}
+
+.navbar-nav > li{
+    padding-left:25px;
+    padding-right:25px;
+  }
+
+  * {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: black;
+  
+}
+
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(180deg);
+	display: inline;
+    
+}
+.wrapper input {
+	display: none;
+}
+.wrapper label {
+	
+	cursor: pointer;
+	width: 50px;
+    
+    
+}
+.wrapper label:before {
+	content: '★';
+	position: relative;
+	display: block;
+	font-size: 50px;
+	color: black;
+    padding-top: 56rem;
+    
+    
+   
+    
+
+
+}
+.wrapper label:after {
+	content: '★';
+	position: absolute;
+	display: block;
+	font-size: 50px;
+	color: white;
+	top: 0;
+	opacity: 0;
+	transition: .6s;
+    padding-top: 56rem;
+}
+.wrapper label:hover:after, .wrapper label:hover~label:after, .wrapper input:checked~label:after {
+	opacity: 1;
+}
+
+.r{
+    
+    margin: auto;
+    
+    text-align: center;
+    font-size: 2rem;
+    
+    
+}
+
+.carousel-inner{
+    margin: auto;
+    
+    
+}
+
+/* .note{
+    text-align: center;
+    
+    margin:auto;
+    position: absolute; top:60rem; left:25rem;
+   
+} */
+
+#mood{
+    
+   
+    padding-top: 6%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 0%;
+
+    background-color:black;
+    height: 15rem;
+    font-family: 'Cinzel', serif;
+    outline-style: solid;
+    outline-color: black;
+    
+    box-shadow: 0 0 0.5rem 0.25rem #94B49F;
+   
+}
+
+.r{
+    line-height: 0.2rem;
+    color: beige;
+}
+
+
+
+
+
+#leavenote{
+    padding-left: 25%;
+    padding-right: 25%;
+    
+    padding-bottom: 7%;
+    padding-top: 3%;
+    text-align: center;
+    background-color: black;
+    
+    
+    
+    
+
+}
+
+.l{
+    font-size: 1.5rem;
+    line-height: 5rem;
+    color: beige;
+}
+.g{
+    color:beige;
+    font-size: 3rem;
+    
+    
+}
+
+
+.l{
+    font-family: 'Cormorant', serif;
+}
+#myCarousel .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    width: 400px;
+    overflow: hidden;
+}
+
+
+
+.form-control{
+    box-shadow:  0 0 8px 2px rgba(236, 239, 240, 0.884);
+
+    height: 10rem;
+    
+    
+}
+
+
+
+.purple-border textarea {
+    border: 1px solid #066163;
+}
+.purple-border .form-control:focus {
+    border: 2px solid #066163;
+    box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+
+.g{
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+}
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    
+    color: #5a5a5a;
+    margin-right: 0;
+  }
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+   color: black;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  .containerr {
+    height: 500px;
+    position: relative;
+   
+    /* border: 3px solid #dbe4ed; Border color is optional  */
+    background-color: black;
+    
+  }
+  
+   .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .tada{
+    height: 500px;
+    width:1300px;
+    filter: blur(5px);
+  }
+  .containerr figure img{
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+
+  .containerr figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-family: 'Cormorant', serif;;
+    color:black;
+    text-shadow: 2px 2px 5px white;
+  }
+
+  .container{
+    border-style: solid;
+    border-color: black;
+    
+  }
+  .bd-placeholder-img{
+    border-style: solid;
+    border-color: black;
+    font-family: 'Amatic SC', cursive;
+
+  }
+
+  .car{
+    font-family: 'Cinzel', serif;
+  }
+  .cars{
+    font-family: 'Cormorant', serif;
+  }
+
+  
+  .paani{
+    font-size: 1.3rem;
+  }
+
+ /* ____________________________________________________________ */
+.therapist{
+    height:500px;
+    width: 500px;
+    background-color: beige;
+    position:absolute;
+    left: 450px;
+    padding: 20px;
+    border-style: solid;
+    border-color:white;
+    font-family: 'Cinzel', serif;
+   
+   
+
+
+}
+
+
+  
+.talk{
+   
+    height:200px;
+    font-family: 'Cormorant', serif;
+ background-color: #C6B497;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-style: bold;
+  }
+
+  .a{
+    color: black;
+  }
+
+  .b{
+    font-size: 1.3rem;
+    color:black
+  }
+  
+  /* ______________________________________________________ */
+
+  #cards{
+    background-color: black;
+    padding-top:100px;
+}
+
+.card-img-top {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.card-img-top:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.card-title{
+    font-family: 'Cinzel', serif;
+    color:white;
+}
+
+.card-text{
+    font-family: 'Cormorant', serif;
+    color:white;
+}
+
+.card-body{
+    background-color: black;
+  }
+
+  .btn{
+    box-shadow:0 0 0.4rem 0 white;
+
+    
+  }
+
+  .card-img-top1{
+    height: 400px;
+    
+    display: inline-block;
+  }
+
+
+  .row{
+    margin-right: 0;
+  }
+  
+  
